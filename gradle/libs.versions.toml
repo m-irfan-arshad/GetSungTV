@@ -269,11 +269,9 @@ hilt = [
     "hilt-android",
     "androidx-hilt-navigation-compose",
     "androidx-hilt-viewmodel-composee",
-    "hilt-work"
 ]
 hilt-ksp = [
     "hilt-compiler",
-    "androidx-hilt-ext-compiler"
 ]
 
 

@@ -1,4 +1,4 @@
 <resources>
 
-    <style name="Theme.GetSungTV" parent="Theme.MaterialComponents.Light" />
+    <style name="Theme.GetSungTV" parent="Theme.Material3.DayNight.NoActionBar" />
 </resources>
