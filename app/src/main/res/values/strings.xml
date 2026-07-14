@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GetSungTV</string>
+    <string name="app_icon_name">GetSungTV Icon</string>
+    <string name="no_text_value">--</string>
 </resources>

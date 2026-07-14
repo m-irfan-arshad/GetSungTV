@@ -60,5 +60,6 @@ dependencies {
     implementation(libs.androidx.datastore.preferences)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     debugImplementation(libs.androidx.compose.ui.tooling)
+    androidTestImplementation(libs.androidx.test.core)
 //    ksp(libs.androidx.room.compiler)
 }
