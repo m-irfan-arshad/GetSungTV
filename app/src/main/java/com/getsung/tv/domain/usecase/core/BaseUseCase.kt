@@ -1,4 +1,4 @@
-package com.dreamsoftware.tvnexa.domain.usecase.core
+package com.getsung.tv.domain.usecase.core
 
 import android.util.Log
 import kotlinx.coroutines.CoroutineScope
