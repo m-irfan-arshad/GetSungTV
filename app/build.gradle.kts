@@ -29,6 +29,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            buildConfigField("String", "BASE_URL", "\"https://api.com\"")
         }
         debug {
             isMinifyEnabled = false
@@ -36,7 +37,7 @@ android {
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
             )
-            buildConfigField("String", "BASE_URL", "\"https://api.themoviedb.org/3/\"\"")
+            buildConfigField("String", "BASE_URL", "\"https://api.com\"")
         }
     }
     compileOptions {
@@ -62,6 +63,7 @@ dependencies {
     implementation(libs.bundles.compose.adaptive)
     implementation(libs.bundles.hilt)
     ksp(libs.bundles.hilt.ksp)
+    implementation(libs.bundles.android.test)
 
     implementation(libs.coil.compose)
     implementation(libs.bundles.coroutines)

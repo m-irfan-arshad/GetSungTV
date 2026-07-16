@@ -1,8 +1,8 @@
 package com.getsung.tv.data.networking
 
+import com.bigbaat.networking.apiclient.base.interfaces.IRepository
 import com.getsung.tv.data.networking.error.NetworkErrorMapper
 import com.getsung.tv.data.networking.intercepters.NoInternetException
-import com.bigbaat.networking.apiclient.base.interfaces.IRepository
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

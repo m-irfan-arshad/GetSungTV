@@ -156,5 +156,6 @@ class NetworkModule {
 
     @Named("BaseUrl")
     @Provides
+    @Singleton
     fun provideBaseUrl(): String = BuildConfig.BASE_URL
 }
